@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="267.0" prefWidth="415.0" style="-fx-background-color: linear-gradient(to bottom right,#6A5ACD, #FF7F50); -fx-background-radius: 10 10 10 10;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo2.LoginController">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="82.0" layoutY="22.0" text="Welcome to Digital Planner">
+         <font>
+            <Font name="Rockwell" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="46.0" layoutY="84.0" text="Name">
+         <font>
+            <Font name="Rockwell" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="46.0" layoutY="158.0" text="Password">
+         <font>
+            <Font name="Rockwell" size="19.0" />
+         </font>
+      </Label>
+      <TextField fx:id="nameTextField" layoutX="208.0" layoutY="83.0" promptText="Enter your Name" />
+      <Button layoutX="318.0" layoutY="219.0" mnemonicParsing="false" onAction="#loginButtonOnClick" text="Login">
+         <font>
+            <Font name="Rockwell Bold" size="14.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Button>
+      <PasswordField fx:id="passwordTextField" layoutX="208.0" layoutY="157.0" promptText="Enter you Password" />
+      <Button layoutX="30.0" layoutY="220.0" mnemonicParsing="false" onAction="#closeButtonOnClick" prefHeight="26.0" prefWidth="58.0" text="Close">
+         <font>
+            <Font name="Rockwell Bold" size="14.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Button>
+   </children>
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+</AnchorPane>
