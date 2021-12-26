@@ -16,21 +16,21 @@ Installation Instructions:
 
 Planned App's features list: 
 
-  1.Login page
-  2.Main Page
-  3.To-Do list
-  4.Events planner
-  5.Assignment notes
-  6.Timer
+  1.Login page;
+  2.Main Page;
+  3.To-Do list;
+  4.Events planner;
+  5.Assignment notes;
+  6.Timer;
 
 List of Completed  features:
 
-  1.Login page
-  2.Main Page
-  3.To-Do list
-  4.Timer
+  1.Login page;
+  2.Main Page;
+  3.To-Do list;
+  4.Timer;
 
 List of features yet to be implemented:
 
-  1.Events planner
-  2.Assignment notes
+  1.Events planner;
+  2.Assignment notes;
