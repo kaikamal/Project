@@ -1,6 +1,9 @@
 # OOP Project
 Project Title: Digital Planner;
 
+Video for project overview can be accessed via link below:
+https://youtu.be/ezdrFYWy4FU
+
 Project Description: This project aims to build a user friendly application, a digital planner that can be useful for self-management. Application includes to-do lists and timer implemented. Timer is used as a time-management tool, such as Pomodoro and Forest apps. To-do list is used to record tasks that users are supposed to complete in form of table.
 Software & Libraries used: Java 17, JavaFx (including libraries, gradle), Scene Builder.
 
