@@ -21,7 +21,9 @@ Installation Instructions:
 Planned App's features list: 
 
   1.Login page;
+  
   2.Main Page;
+  
   3.To-Do list;
   
   4.Events planner;
